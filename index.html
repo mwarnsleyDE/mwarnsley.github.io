@@ -23,7 +23,7 @@
 					<ul>
 						<li><input class="search-twitter" type="text" placeholder="Search Twitter"></li>
 						<li><img class="profile" src="img/twitter-profile.png" alt="Twitter Profile"></li>
-						<li><button class="tweet">Tweet</button></li>
+						<li class="tweet"></li>
 					</ul>
 				</div>
 			</div>
@@ -34,7 +34,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/projects.js"></script>
 	<script type="text/jsx">
-		
+		var Tweet = React.createClass({
+			render: function(){
+				return(
+					<button>Tweet</button>
+				);
+			}
+		});
+
+		React.render(<Tweet />, document.getElementsByClassName("tweet")[0]);
 	</script>
 	</body>
 </html>

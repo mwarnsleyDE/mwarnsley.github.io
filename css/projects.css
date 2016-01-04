@@ -5,7 +5,7 @@ body{
 #banner{
 	background-color: #ffffff;
 	border-bottom: 1px solid rgba(0,0,0,0.15);
-	height: 50px;
+	height: 45px;
 	position: fixed;
 	width: 100%;
 }
@@ -19,7 +19,7 @@ input.search-twitter{
 .profile{
 	height: 30px;
 }
-.tweet{
+.tweet button{
 	background-color: #339CC3;
 	border: 0;
 	border-radius: 5px;
