@@ -4,7 +4,7 @@ body{
 
 #banner{
 	background-color: #ffffff;
-	border-bottom: 1px solid rgba(0,0,0,0.15);
+	border-bottom: 2px solid rgba(0,0,0,0.15);
 	height: 45px;
 	position: fixed;
 	width: 100%;
@@ -38,13 +38,13 @@ input.search-twitter{
 .top-box-2{
 	background-color: #ffffff;
 	border-bottom: 1px solid rgba(0,0,0,0.15);
-	height: 70%;
+	height: 65%;
 }
 .bottom-box-2{
-	height: 15%;
+	height: 17%;
 }
 .middle-box{
-	height: 15%;
+	height: 18%;
 }
 .follow-links a{
 	font-size: 12px;
@@ -130,4 +130,8 @@ input.search-twitter{
 .top-left-navigation ul li{
 	font-size: 13px;
 	padding: 12px 15px;
+}
+.no-padding{
+	padding-left: 0px;
+	padding-right: 0px;
 }
