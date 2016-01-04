@@ -21,7 +21,7 @@
 				</div>
 				<div class="top-right-navigation">
 					<ul>
-						<li><input class="search-twitter" type="text" placeholder="Search Twitter"></li>
+						<li><input class="search-twitter" type="text" placeholder="Search Twitter"><img class="search-icon" src="img/search-icon.png" alt="Search Icon"> </li>
 						<li><img class="profile" src="img/twitter-profile.png" alt="Twitter Profile"></li>
 						<li class="tweet"></li>
 					</ul>
@@ -55,7 +55,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="js/projects.js"></script>
 	<script type="text/jsx">
-		var Tweet = React.createClass({
+		var TweetButton = React.createClass({
 			render: function(){
 				return(
 					<button>Tweet</button>
@@ -63,7 +63,32 @@
 			}
 		});
 
-		React.render(<Tweet />, document.getElementsByClassName("tweet")[0]);
+		var Follow = React.createClass({
+			render: function(){
+				return(
+
+					<div className="follow-links">
+						<h4>Who to follow</h4>
+						<a href="#">Refresh</a>
+						<a href="#">View all</a>
+					</div>
+				)
+			}
+		});
+
+	/*	var WhoToFollow = React.createClass({
+			render: function(){
+				return(
+
+				)
+			}
+		});	
+
+*/
+
+		React.render(<TweetButton />, document.getElementsByClassName("tweet")[0]);
+
+		React.render(<Follow />, document.getElementsByClassName("who-to-follow-container")[0]);
 	</script>
 	</body>
 </html>

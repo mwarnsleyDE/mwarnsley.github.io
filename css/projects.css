@@ -10,10 +10,11 @@ body{
 }
 input.search-twitter{
 	background-color: #f5f8fa;
+	border: 1px solid rgba(0,0,0,0.15);
 	border-radius: 15px;
     margin-top: 5px;
     outline: 0;
-    padding: 3px 20px;
+    padding: 5px 25px;
 }
 .profile{
 	height: 30px;
@@ -24,6 +25,22 @@ input.search-twitter{
     height: 200px;
     margin-bottom: 15px;
     position: relative;
+}
+.follow-links{
+	padding: 10px;
+}
+.follow-links a{
+	font-size: 12px;
+}
+.follow-links h4, .follow-links a{
+	display: inline-block;
+	margin-right: 10px;
+}
+.search-icon{
+	height: 15px;
+    position: absolute;
+    right: 27%;
+    top: 12px;
 }
 .trends{
 	border: 1px solid rgba(0,0,0,0.15);
