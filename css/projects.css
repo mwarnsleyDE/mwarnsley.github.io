@@ -1,23 +1,25 @@
 body{
-	background: #c21500; 
-	background: -webkit-linear-gradient(to left, #c21500 , #ffc500); 
-	background: linear-gradient(to left, #c21500 , #ffc500);
-	margin: 1px; /*Override the Bootstrap body margin to make the gradients appear*/
+	background-color: #f5f8fa;
 }
 
-#banner-container{
-	background-color: #FFFF00;
-	height: 150px;
+#banner{
+	background-color: #ffffff;
+	height: 45px;
 	width: 100%;
 }
-.container-fluid{
-	padding-left: 0px; /*Overriding the bootstrap container fluid padding for the sides*/
-	padding-right: 0px; /*Overriding the bootstrap container fluid padding for the sides*/
-}
 .logo{
-	height: 150px;
-	width: 150px;
+	height: 20px;
+	left: 55%;
+	position: absolute;
+	top: 10px;
+	width: 20px;
 }
-.logo-container{
-	text-align: center;
+.top-left-navigation{
+	float: left;
+}
+.top-right-navigation{
+	float: right;
+}
+.top-left-navigation ul li, .top-right-navigation ul li{
+	display: inline-block;
 }
