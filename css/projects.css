@@ -1,1 +1,6 @@
-ECHO is on.
+body{
+	background: #c21500; 
+	background: -webkit-linear-gradient(to left, #c21500 , #ffc500); 
+	background: linear-gradient(to left, #c21500 , #ffc500);
+	margin: 1px; /*Override the Bootstrap body margin to make the gradients appear*/
+}
