@@ -4,3 +4,20 @@ body{
 	background: linear-gradient(to left, #c21500 , #ffc500);
 	margin: 1px; /*Override the Bootstrap body margin to make the gradients appear*/
 }
+
+#banner-container{
+	background-color: #FFFF00;
+	height: 150px;
+	width: 100%;
+}
+.container-fluid{
+	padding-left: 0px; /*Overriding the bootstrap container fluid padding for the sides*/
+	padding-right: 0px; /*Overriding the bootstrap container fluid padding for the sides*/
+}
+.logo{
+	height: 150px;
+	width: 150px;
+}
+.logo-container{
+	text-align: center;
+}
