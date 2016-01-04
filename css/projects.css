@@ -6,7 +6,13 @@ body{
 	background-color: #ffffff;
 	border-bottom: 1px solid rgba(0,0,0,0.15);
 	height: 45px;
+	position: fixed;
 	width: 100%;
+	z-index: 5;
+}
+#main-content{
+	position: relative;
+    top: 55px;
 }
 input.search-twitter{
 	background-color: #f5f8fa;
@@ -111,17 +117,17 @@ input.search-twitter{
 }
 .logo{
 	height: 20px;
-	left: 50%;
 	position: absolute;
 	top: 10px;
 	width: 20px;
 }
-.top-left-navigation{
-	float: left;
-}
 .top-right-navigation{
-	float: right;
+	text-align: right;
 }
 .top-left-navigation ul li, .top-right-navigation ul li{
 	display: inline-block;
+}
+.top-left-navigation ul li{
+	font-size: 13px;
+	padding: 12px 15px;
 }
