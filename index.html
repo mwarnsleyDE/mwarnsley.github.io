@@ -43,7 +43,11 @@
 						<div class="feed-container"></div>
 					</div>
 					<div class="col-sm-3 col-md-3">
-						<div class="who-to-follow-container"></div>
+						<div class="who-to-follow-container">
+							<div class="top-box-2"></div>
+							<div class="middle-box"></div><hr>
+							<div class="bottom-box-2"></div>
+						</div>
 						<div class="legal-copy"></div>
 					</div>
 				</div>
@@ -76,19 +80,21 @@
 			}
 		});
 
-	/*	var WhoToFollow = React.createClass({
+		var Picture = React.createClass({
 			render: function(){
 				return(
-
+					<div className="profile-pic-img">
+						<img className="prof-img" src={"img/prof-pic.jpg"} alt="Profile Picture" />
+					</div>
 				)
 			}
-		});	
-
-*/
+		});
 
 		React.render(<TweetButton />, document.getElementsByClassName("tweet")[0]);
 
-		React.render(<Follow />, document.getElementsByClassName("who-to-follow-container")[0]);
+		React.render(<Follow />, document.getElementsByClassName("top-box-2")[0]);
+
+		React.render(<Picture />, document.getElementsByClassName("prof-pic")[0]);
 	</script>
 	</body>
 </html>

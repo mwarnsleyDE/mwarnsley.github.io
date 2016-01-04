@@ -29,6 +29,17 @@ input.search-twitter{
 .follow-links{
 	padding: 10px;
 }
+.top-box-2{
+	background-color: #ffffff;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	height: 70%;
+}
+.bottom-box-2{
+	height: 15%;
+}
+.middle-box{
+	height: 15%;
+}
 .follow-links a{
 	font-size: 12px;
 }
@@ -38,9 +49,8 @@ input.search-twitter{
 }
 .search-icon{
 	height: 15px;
-    position: absolute;
-    right: 27%;
-    top: 12px;
+    position: relative;
+    right: 10%;
 }
 .trends{
 	border: 1px solid rgba(0,0,0,0.15);
@@ -57,6 +67,11 @@ input.search-twitter{
 	left: 10px;
 	position: absolute;
 	width: 75px;
+}
+.prof-img{
+	border-radius: 5px;
+    height: 67px;
+    width: 67px;
 }
 .top-box{
 	background-color: #0084B4;
@@ -76,7 +91,7 @@ input.search-twitter{
 .who-to-follow-container{
 	border: 1px solid rgba(0,0,0,0.15);
     border-radius: 5px;
-    height: 350px;
+    height: 400px;
     margin-bottom: 15px;
 }
 .legal-copy{
