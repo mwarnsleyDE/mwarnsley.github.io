@@ -4,12 +4,33 @@ body{
 
 #banner{
 	background-color: #ffffff;
-	height: 45px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	height: 50px;
+	position: fixed;
 	width: 100%;
+}
+input.search-twitter{
+	background-color: #f5f8fa;
+	border-radius: 15px;
+    margin-top: 5px;
+    outline: 0;
+    padding: 3px 20px;
+}
+.profile{
+	height: 30px;
+}
+.tweet{
+	background-color: #339CC3;
+	border: 0;
+	border-radius: 5px;
+	color: #ffffff;
+    height: 30px;
+    outline: 0;
+    width: 90px;
 }
 .logo{
 	height: 20px;
-	left: 55%;
+	left: 50%;
 	position: absolute;
 	top: 10px;
 	width: 20px;
