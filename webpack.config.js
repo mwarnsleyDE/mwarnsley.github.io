@@ -1,20 +1,26 @@
 module.exports = {
-  entry: './public/app.jsx',
+  entry: [
+    './src/index.js'
+  ],
   output: {
     path: __dirname,
-    filename: './public/bundle.js'
+    publicPath: '/',
+    filename: 'bundle.js'
+  },
+  module: {
+    loaders: [{
+      exclude: /node_modules/,
+      loader: 'babel',
+      query: {
+        presets: ['react', 'es2016', 'stage-1']
+      }
+    }]
   },
   resolve: {
     extensions: ['', '.js', '.jsx']
   },
-  module: {
-    loaders: [{
-      loader: 'babel-loader',
-      query: {
-        presets: ['react','es2016']
-      },
-      test: /\.jsx?$/,
-      exclude: /(node_modules|bower_components)/
-    }]
+  devServer: {
+    historyApiFallback: true,
+    contentBase: './'
   }
 };
