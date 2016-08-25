@@ -1,0 +1,19 @@
+{
+  "name": "mwarnsley.github.io",
+  "version": "1.0.0",
+  "description": "Marcus Warnsley github portfolio page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwarnsley/mwarnsley.github.io.git"
+  },
+  "author": "Marcus Warnsley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwarnsley/mwarnsley.github.io/issues"
+  },
+  "homepage": "https://github.com/mwarnsley/mwarnsley.github.io#readme"
+}
