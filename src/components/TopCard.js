@@ -7,7 +7,7 @@ class TopCard extends Component{
         <div className="profile-section">
             <div className="profile-card">
               <div id="profile_picture">
-                <img className="profile_image" src={'http://3.bp.blogspot.com/-ZFtK_9IfJc0/UJytTXfzY8I/AAAAAAAACws/kPWTgfwiDBk/s640/Stylist+Guy+Profile+Picture+for+Facebook+(37).jpg'} alt="profile picture"/>
+                <img className="profile_image" src={'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAVNAAAAJDE4N2JhNTJmLTc4N2UtNDExNy04MzU1LTcyMDgzZDFiMDQ1Yw.jpg'} alt="profile picture"/>
               </div>
               <div id="profile_overview">
                 <div className="profile-overview-content">
