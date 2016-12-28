@@ -1,20 +1,17 @@
-import React, { Component } from 'react';
-import FontAwesome from 'react-fontawesome';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
-import HeaderSearch from './HeaderSearch';
+import React from 'react';
+import {Component} from 'react';
 
-class Header extends Component{
-  render(){
-    return(
-      <header id="header">
-            <div className="header_wrapper">
-              <i className="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
-              <HeaderSearch />
-            </div>      
-      </header>
-    );
-  }
+import Input from './Input';
+
+class Header extends Component {
+	render() {
+		return(
+			<div id="search_header">
+				<Input value="Marcus Warnsley"/>
+				<i className="fa fa-search" aria-hidden="true"></i>
+			</div>
+		);
+	}
 }
 
 export default Header;
