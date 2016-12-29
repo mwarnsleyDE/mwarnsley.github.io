@@ -7,3 +7,41 @@
 	background: #232F3E;
     height: 110px;
 }
+#profile_image {
+	height: 315px;
+	width: 300px;
+}
+.overlay {
+	display: none;
+}
+.overlay.active-overlay {
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.50);
+}
+.overlay-panel {
+	background: white;
+	height: 600px;
+	margin: 0 auto;
+	width: 90%;
+	position: fixed;
+	left: 5%;
+	top: 10%;
+}
+.inside-panel {
+	position: relative;
+}
+.close-modal {
+	position: absolute;
+	right: 10px;
+	color: black;
+	top: 5px;
+	font-size: 15px;
+}
+.close-modal:hover {
+	cursor: pointer;
+}
