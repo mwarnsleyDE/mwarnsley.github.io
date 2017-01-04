@@ -1,12 +1,83 @@
+/*GLOBAL CSS*/
 * {
 	margin: 0;
 	padding: 0;
 }
+*:focus {
+	outline: 0;
+}
+a {
+	text-decoration: none;
+}
+li {
+	list-style-type: none;
+}
 
+/*CSS for the search header*/
 #search_header {
 	background: #232F3E;
-    height: 110px;
+    height: 100px;
+    margin-top: -5px;
+    padding: 20px 10px 0px 10px;
 }
+.main-search {
+	height: 38px;
+	border: 1px solid #FEBD69;
+	border-radius: 5px;
+}
+.search-drop, .search-icon {
+	position: absolute;
+}
+.search-drop {
+	height: 38px;
+	background: #F3F3F3;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.search-icon {
+    color: #000000;
+    background: #FEBD69;
+    font-size: 26px;
+    padding: 6px;
+    right: 0;
+    top: 0px;
+   	border-radius: 5px;
+}
+.search-box {
+	position: relative;
+}
+.sub-nav-group {
+	padding-top: 15px;
+}
+.sub-nav-options {
+	display: inline-block;
+	margin-right: 20px;
+}
+.sub-nav-options a {
+	color: #BEBFC1;
+	font-size: 14px;
+}
+.sub-department-drop {
+	margin-top: 17px;
+	position: relative;
+}
+.sub-department-drop span {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+.sub-dep-drop-group {
+	position: absolute;
+	background: #FFFFFF;
+	height: auto;
+	padding: 10px;
+	width: 300px;
+	border: 1px solid #BEBFC1;
+	-webkit-box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.65);
+	-moz-box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.65);
+	box-shadow: 0px 0px 40px -9px rgba(0,0,0,0.65);
+}
+/*CSS for the profile image section*/
 #profile_image {
 	height: 315px;
 	width: 300px;
@@ -44,4 +115,10 @@
 }
 .close-modal:hover {
 	cursor: pointer;
+}
+
+/*CSS for the main banner top of page*/
+#banner_image {
+	width: 100%;
+    height: 50px;
 }
