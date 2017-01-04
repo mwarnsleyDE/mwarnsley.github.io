@@ -5,14 +5,11 @@ import {Row, Col} from 'react-bootstrap';
 import Input from '../Common/Input';
 import Select from '../Common/Select';
 
-const searchDropdown = [
-	{value: 'all departments', text: 'All Departments'},
-	{value: 'alexa skills', text: 'Alexa Skills'},
-	{value: 'amazon video', text: 'Amazon Video'},
-];
+import DropDown from '../../resources/DropDown';
 
 class Header extends Component {
 	render() {
+		const options = DropDown.dropOptions;
 		return(
 			<div id="search_header">
 				<Row>
@@ -21,7 +18,7 @@ class Header extends Component {
 					</Col>
 					<Col sm={8} md={8}>
 						<div className="search-box">
-							<Select classes="search-drop" selectOptions={searchDropdown} optionClasses="search-drop-options"/>
+							<Select classes="search-drop" selectOptions={options} optionClasses="search-drop-options"/>
 							<Input value="Marcus Warnsley" classes="form-control main-search"/>
 							<i className="fa fa-search search-icon" aria-hidden="true"></i>
 						</div>
