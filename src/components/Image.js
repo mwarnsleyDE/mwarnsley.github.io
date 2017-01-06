@@ -9,7 +9,7 @@ class ProfileImage extends Component {
 		this.viewFullImage = this.viewFullImage.bind(this);
 		this.closeModal = this.closeModal.bind(this);
 
-		this.state = {
+		this.state = {	
 			displayOverlay: false,
 		};
 	}

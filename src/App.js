@@ -24,7 +24,7 @@ class App extends Component {
 						</ul>
 					</div>
 				</Row>
-				<img id="bottom_banner_image" src={'../../images/bottom-banner.jpg'} alt="Bottom Banner" />
+				<img id="bottom_banner_image" src={'../../images/bottom-banner.png'} alt="Bottom Banner" />
 				<Row>
 					<Col sm={5} md={5}>
 						<div className="profile">

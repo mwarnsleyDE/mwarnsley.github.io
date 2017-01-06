@@ -13,7 +13,7 @@ class Header extends Component {
 		return(
 			<div id="search_header">
 				<Row>
-					<Col sm={1} md={1}>
+					<Col sm={2} md={2}>
 
 					</Col>
 					<Col sm={8} md={8}>
@@ -23,7 +23,7 @@ class Header extends Component {
 							<i className="fa fa-search search-icon" aria-hidden="true"></i>
 						</div>
 					</Col>
-					<Col sm={3} md={3}>
+					<Col sm={2} md={2}>
 
 					</Col>
 				</Row>
@@ -44,7 +44,7 @@ class Header extends Component {
 					<Col sm={8} md={8}>
 						<ul className="sub-nav-group">
 							<li className="sub-nav-options"><a href="#">Browsing History</a></li>
-							<li className="sub-nav-options"><a href="#">Marcus' github.io</a></li>
+							<li className="sub-nav-options"><a href="http://mwarnsley.github.io/">Marcus' github.io</a></li>
 							<li className="sub-nav-options"><a href="#">Today's Deals</a></li>
 							<li className="sub-nav-options"><a href="#">Gift Cards &amp; Registry</a></li>
 							<li className="sub-nav-options"><a href="#">Sell</a></li>
@@ -52,7 +52,14 @@ class Header extends Component {
 						</ul>
 					</Col>
 					<Col sm={3} md={3}>
-						Content
+						<ul className="sub-nav-group">
+							<li className="sub-nav-options"><a href="#">Browsing History</a></li>
+							<li className="sub-nav-options"><a href="http://mwarnsley.github.io/">Marcus' github.io</a></li>
+							<li className="sub-nav-options"><a href="#">Today's Deals</a></li>
+							<li className="sub-nav-options"><a href="#">Gift Cards &amp; Registry</a></li>
+							<li className="sub-nav-options"><a href="#">Sell</a></li>
+							<li className="sub-nav-options"><a href="#">Help</a></li>
+						</ul>
 					</Col>
 				</Row>
 			</div>
